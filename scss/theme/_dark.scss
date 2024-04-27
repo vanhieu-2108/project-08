@@ -8,7 +8,7 @@ html.dark {
   --top-act-group-bg-color: #292e39;
   --top-act-group-shadow: rgba(0, 0, 0, 0.2);
   --top-act-group-seperate: #ededf6;
-  @include abstracts.breakpoint(lg) {
+  @include abstracts.screen(lg) {
     --header-shadow-color: rgba(0, 0, 0, 0.2);
   }
 
